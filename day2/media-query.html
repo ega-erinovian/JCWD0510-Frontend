@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Media Query</title>
+    <style>
+      .container {
+        text-align: center;
+        padding: 50px;
+        border: 2px solid red;
+      }
+
+      /* Mobile Device */
+      @media (max-width: 480px) {
+        .container {
+          background-color: aqua;
+        }
+      }
+
+      /* Tablets Device */
+      @media (min-width: 481px) and (max-width: 768px) {
+        .container {
+          background-color: cadetblue;
+        }
+      }
+
+      /* Desktop */
+      @media (min-width: 769px) {
+        .container {
+          background-color: brown;
+          color: white;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Responsive Media Query</h1>
+    </div>
+  </body>
+</html>

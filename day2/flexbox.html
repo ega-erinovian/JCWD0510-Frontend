@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flexbox</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        margin: 20px 54px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: center;
+      }
+
+      .wrapper{
+        border: 2px solid red;
+        max-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .navbar-items {
+        display: flex;
+        gap: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <span><h2>LOGO</h2></span>
+      <div class="navbar-items">
+        <span>Home</span>
+        <span>About</span>
+        <span>Portfolio</span>
+        <span>Contact</span>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+      <span>Hello</span>
+    </div>
+  </body>
+</html>

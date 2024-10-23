@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Position</title>
+    <style>
+      .container {
+        margin: auto;
+        width: 600px;
+        border: 2px solid red;
+        height: 3000px;
+      }
+
+      .kotak-1 {
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+      }
+      .kotak-2 {
+        background-color: yellow;
+        width: 200px;
+        height: 200px;
+        /* Posisi Default */
+        /* position: static; */
+        /* Posisi dimana dia relatif dengan posisi asalnya, dan bisa diatur top, left, dll. Jika diiulstrasikan elemen dengan posistion ini seperti melayang diatas elemen lain, tetapi elemen lain mengetahui posisinya*/
+        /* position: relative;  */
+        /* Sama seperti relatif, tetapi elemen lain tidak mengetahui posisinya */
+        /* position: absolute;*/
+        /* elemen akan stay ditempatnya */
+        /* position: fixed;*/
+        /* elemen akan stay ditempat saat di scroll, dan jika dia merupakan child element, akan stay ketika parentnya habis */
+        position: sticky;
+        top: 10px;
+        left: 10px;
+      }
+      .kotak-3 {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="kotak-1"></div>
+      <div class="kotak-2"></div>
+      <div class="kotak-3"></div>
+    </div>
+  </body>
+</html>
