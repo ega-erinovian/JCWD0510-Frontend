@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 12px;
+}
+
+.hijau {
+  color: green;
+}
+
+/* PORTFOLIO */
+/* Jumbotron */
+.jumbotron {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jumbotron .content{
+  grid-column: span 2;
+}
+
+.navbar {
+  width: 100%;
+  text-align: end;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.jumbotron img{
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+{
+  "superheroes": [
+    {
+      "id": 2,
+      "name": "Flash",
+      "power": "Fast"
+    },
+    {
+      "name": "Siska",
+      "power": "Memikat hati pria",
+      "id": 3
+    }
+  ]
+}

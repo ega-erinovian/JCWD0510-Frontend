@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+body {
+  max-width: 100vw;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  max-height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+/* PROFILE PICTURE */
+.jumbotron .profile {
+  height: 1000px;
+  width: 100%;
+  z-index: -1;
+}
+
+/* CONTENT */
+.jumbotron .content {
+  padding-right: 54px;
+  grid-column: span 2;
+  height: 1000px;
+}
+
+.jumbotron img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  box-shadow: -144px 92px #1e1e1e;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.navbar ul {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbotron .content .content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-top: 154px;
+}
+
+.jumbotron .content .content-text h1 {
+  font-size: 112px;
+  margin-bottom: 52px;
+}
+
+.jumbotron .content .content-text span {
+  font-size: 196px;
+}
+
+.jumbotron .content .content-text span span {
+  color: #fff;
+}
+
+.jumbotron .content .download-btn {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 24px 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.jumbotron .content .download-btn:hover {
+  background-color: #0d764f;
+}
+
+/* WORK SECTION */
+.work {
+  margin-top: 48px;
+  padding: 136px 96px;
+}
+
+.work .subtitle {
+  font-size: 112px;
+  margin-bottom: 48px;
+}
+
+.work .work-container .work-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.work .work-container .work-content .work-title h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.work .work-container .work-content .work-description ul {
+  display: flex;
+}
+
+.work .work-container .work-content .work-description p {
+  margin-bottom: 8px;
+}
+
+.work .work-container .work-content .work-description li {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 36px;
+  font-size: 16px;
+}
+
+.work .work-container .work-content .work-description li:hover {
+  background-color: #04aa6d;
+  color: #fff;
+}
+
+/* PROJECTS */
+.projects {
+  margin-top: 48px;
+  padding: 136px 96px;
+}
+
+.projects .subtitle {
+  font-size: 112px;
+  margin-bottom: 48px;
+}
+
+.projects .projects-container .projects-content .projects-image img {
+  width: 560px;
+  height: 560px;
+  object-fit: cover;
+}

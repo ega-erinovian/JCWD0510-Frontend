@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Javascript DOM</title>
+  </head>
+  <body>
+    <!-- onclick -->
+    <h1 id="myElement">Original Text</h1>
+    <button onclick="updateText()">Update Text</button>
+
+    <!-- addEventListener -->
+    <h1 id="myElement2">Original Text 2</h1>
+    <button id="myButton">Update Text</button>
+
+    <script>
+      function updateText() {
+        // Using onclick
+        const element = document.getElementById("myElement");
+        element.textContent = "Updated Text";
+      }
+
+      //   Using addEventListener
+      const element2 = document.getElementById("myElement2");
+      const myButton = document.getElementById("myButton");
+      myButton.addEventListener("click", () => {
+        element2.textContent = "Updated Text 2";
+      });
+    </script>
+  </body>
+</html>
